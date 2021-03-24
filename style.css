@@ -1,3 +1,4 @@
+/* Exercise 14 - Table */
 table {
   border-collapse: collapse;
 }
@@ -15,4 +16,15 @@ tbody tr:nth-child(odd) {
 td {
   padding: 8px;
   border-bottom: 1px solid #c4dcf3;
+}
+
+/* Exercise 15 - Box */
+.box {
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+  border-radius: 8px;
+  box-shadow: 10px 10px lightgrey;
 }
