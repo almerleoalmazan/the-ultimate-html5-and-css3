@@ -1,31 +1,14 @@
-body {
-  margin: 10px;
-  height: 200vh;
-}
-
-.boxes {
+.container {
   border: 3px solid lightgrey;
-  position: relative;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .box {
   width: 5rem;
   height: 5rem;
-}
-
-.box-one {
   background: gold;
-}
-
-.box-two {
-  background: tomato;
-  position: fixed;
-  top: 0;
-  left: 2rem;
-  right: 2rem;
-  width: auto;
-}
-
-.box-three {
-  background: dodgerblue;
+  margin: 1rem;
 }
